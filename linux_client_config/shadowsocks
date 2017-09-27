@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# chkconfig: 235 99 99
+# description: shadowsocks client start script
+
+nohup /usr/bin/ss-local -c /etc/shadowsocks-libev/config.json >/dev/null 2>&1 &
