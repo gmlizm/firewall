@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# chkconfig: 235 99 99
+# description: shadowsocks server start script
+
+nohup /usr/local/bin/ss-server -c /etc/ss-server.json >/var/log/ss-server.log 2>&1 &
