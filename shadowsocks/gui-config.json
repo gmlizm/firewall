@@ -1,7 +1,7 @@
 {
   "configs": [
     {
-      "server": "45.63.36.152",
+      "server": "45.77.117.168",
       "server_port": 8388,
       "password": "YYllzmm1020",
       "method": "chacha20-ietf-poly1305",

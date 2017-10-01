@@ -1,3 +1,4 @@
+[注意：fedora开放端口时，使用firewall-cmd 指定的zone必须与/etc/sysconfig/network-script/ifcfg-ens3中的zone一致].
 代理服务器： https://github.com/shadowsocks/shadowsocks-libev
   git clone https://github.com/shadowsocks/shadowsocks-libev.git
   cd shadowsocks-libev
