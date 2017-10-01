@@ -2,7 +2,7 @@
     "server":["::0", "0.0.0.0"],
     "server_port":8388,
     "local_port":1080,
-    "password":"YYllzmm1020",
+    "password":"server_password",
     "timeout":60,
     "method":"chacha20-ietf-poly1305"
 }
